@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Button } from "./Button"
-import Video from "../Assets/Videos/forest.mp4"
+import Video from "../Assets/videos/forest.mp4"
 
 const HeroHeader = () => {
   return (

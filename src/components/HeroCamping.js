@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Button2 } from "./Button2"
-import Video from "../Assets/Videos/camping.mp4"
+import Video from "../Assets/videos/camping.mp4"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 const HeroCamping = () => {
