@@ -341,6 +341,10 @@ const CountyInfo = styled.div`
   display: grid;
 
   grid-template-columns: 1fr 1fr;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
 `
 const ColumnTwo = styled.div`
   display: grid;
