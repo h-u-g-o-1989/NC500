@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Travel`,
-    description: `Travel website built using react and gatsby.`,
-    author: `@gatsbyjs`,
+    title: `NC 500`,
+    description: `North Coast 500 Website built using Gatsby.`,
+    author: `Hugo Embleton-Black`,
   },
   plugins: [
     `gatsby-plugin-smoothscroll`,
