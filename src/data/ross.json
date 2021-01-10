@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/ross-barrel.jpg",
+        "alt": "Glenmorangie Distillery",
+        "name": "Glenmorangie Distillery"
+   
+    },
+    {
+        "img": "../Assets/images/ross-stoer.jpg",
+        "alt": "Stoer Lighthouse",
+        "name": "Stoer Lighthouse"
+        
+    },
+    {
+        "img": "../Assets/images/ross-castle.jpg",
+        "alt": "Loch Castle",
+        "name": "Small Loch Castle"
+ 
+    },
+    {
+        "img": "../Assets/images/ross-ullapool.jpg",
+        "alt": "Ullapool Harbour",
+        "name": "Ullapool Harbour"
+    }
+
+]

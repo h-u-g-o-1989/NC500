@@ -1,0 +1,37 @@
+[
+    {
+        "img": "../Assets/images/anti-clockwise.jpg",
+        "alt": "Route",
+        "name": "Route",
+        "button": "View Route",
+        "to": "#route-map"
+    },
+    {
+        "img": "../Assets/images/inverness-1.jpg",
+        "alt": "Inverness-shire",
+        "name": "Inverness-shire",
+        "button": "Inverness-shire",
+        "to": "#inverness-shire"
+    },
+    {
+        "img": "../Assets/images/ross-1.jpg",
+        "alt": "Ross & Cromarty",
+        "name": "Ross & Cromarty",
+        "button": "Ross & Cromarty",
+        "to": "#ross"
+    },
+    {
+        "img": "../Assets/images/sutherland-1.jpg",
+        "alt": "Sutherland",
+        "name": "Sutherland",
+        "button": "Sutherland",
+        "to": "#sutherland"
+    },
+    {
+        "img": "../Assets/images/caithness-2.jpg",
+        "alt": "Caithness",
+        "name": "Caithness",
+        "button": "Caithness",
+        "to": "#caithness"
+    }
+]

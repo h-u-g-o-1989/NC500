@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/explore-waterfalls2.jpg",
+        "alt": "Eas A'Chual Aluin",
+        "name": "Eas A'Chual Aluin"
+   
+    },
+    {
+        "img": "../Assets/images/explore-waterfalls3.jpg",
+        "alt": "The Ugly Hollow",
+        "name": "The Ugly Hollow"
+        
+    },
+    {
+        "img": "../Assets/images/explore-waterfalls4.jpg",
+        "alt": "Rogie Falls",
+        "name": "Rogie Falls"
+ 
+    },
+    {
+        "img": "../Assets/images/explore-waterfalls5.jpg",
+        "alt": "The Magical Fairy Glen",
+        "name": "The Magical Fairy Glen"
+    }
+
+]

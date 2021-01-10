@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/caithness-duncasby.jpg",
+        "alt": "Duncasby Cliffs",
+        "name": "Duncasby Cliffs"
+   
+    },
+    {
+        "img": "../Assets/images/caithness-dunnet.jpg",
+        "alt": "Dunnet Lighthouse",
+        "name": "Dunnet Lighthouse "
+        
+    },
+    {
+        "img": "../Assets/images/caithness-forest.jpg",
+        "alt": "Castle of Mey forest",
+        "name": "Castle of Mey forest"
+ 
+    },
+    {
+        "img": "../Assets/images/caithness-john.jpg",
+        "alt": "John O'Groats",
+        "name": "John O'Groats"
+    }
+
+]

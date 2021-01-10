@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/sutherland-ardvreck.jpg",
+        "alt": "Ardvreck Castle",
+        "name": "Ardvreck Castle"
+   
+    },
+    {
+        "img": "../Assets/images/sutherland-bagpipes.jpg",
+        "alt": "Highland Bagpipes",
+        "name": "Highland Bagpipes "
+        
+    },
+    {
+        "img": "../Assets/images/sutherland-clachtoll.jpg",
+        "alt": "Clachtoll Beach  ",
+        "name": "Clachtoll Beach  "
+ 
+    },
+    {
+        "img": "../Assets/images/sutherland-cow.jpg",
+        "alt": "Highland Cows",
+        "name": "Highland Cows"
+    }
+
+]

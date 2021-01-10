@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/inverness-dunrobin.jpg",
+        "alt": "Dunrobin Castle",
+        "name": "Dunrobin Castle"
+   
+    },
+    {
+        "img": "../Assets/images/inverness-bridge.jpg",
+        "alt": "Inverness Bridge",
+        "name": "Inverness Bridge"
+        
+    },
+    {
+        "img": "../Assets/images/inverness-highlandGames.jpg",
+        "alt": "Inverness Highland Games",
+        "name": "Inverness Highland Games"
+ 
+    },
+    {
+        "img": "../Assets/images/inverness-port.jpg",
+        "alt": "Local Port",
+        "name": "Local Port"
+    }
+
+]

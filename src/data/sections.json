@@ -1,0 +1,44 @@
+[
+    {
+        "img": "../Assets/images/routes-1.jpg",
+        "alt": "The Routes",
+        "name": "The Routes",
+        "button": "View Routes",
+        "to": "/routes"
+    },
+    {
+        "img": "../Assets/images/travel-4.jpg",
+        "alt": "The Roads",
+        "name": "The Roads",
+        "button": "View Roads",
+        "to": "/roads"
+    },
+    {
+        "img": "../Assets/images/travel-3.jpg",
+        "alt": "Where to Explore",
+        "name": "Where to Explore",
+        "button": "View Destinations",
+        "to": "/explore"
+    },
+    {
+        "img": "../Assets/images/hotel-1.jpg",
+        "alt": "Places to Stay",
+        "name": "Places to Stay",
+        "button": "View Accommodation",
+        "to": "/accommodation"
+    },
+    {
+        "img": "../Assets/images/camping-1.jpg",
+        "alt": "Places to Camp",
+        "name": "Places to Camp",
+        "button": "View Camping Sites",
+        "to": "/camping"
+    },
+    {
+        "img": "../Assets/images/activities-1.jpg",
+        "alt": "Activitites and Entertainment",
+        "name": "Activitites and Entertainment",
+        "button": "View Activities",
+        "to": "/activities"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/explore-nature-cow.jpg",
+        "alt": "Highland Cattle",
+        "name": "Highland Cattle"
+   
+    },
+    {
+        "img": "../Assets/images/explore-nature-eagle.jpg",
+        "alt": "The Golden Eagle",
+        "name": "The Golden Eagle"
+        
+    },
+    {
+        "img": "../Assets/images/explore-nature-dolphin.jpg",
+        "alt": "Dolphins of the coast",
+        "name": "Dolphins of the coast"
+ 
+    },
+    {
+        "img": "../Assets/images/explore-nature-seal.jpg",
+        "alt": "Seals",
+        "name": "Seals"
+    }
+
+]

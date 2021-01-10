@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/explore-lochs2.jpg",
+        "alt": "Misty Mountain Pass",
+        "name": "Misty Mountain Pass"
+   
+    },
+    {
+        "img": "../Assets/images/explore-lochs3.jpg",
+        "alt": "Off the beaten track",
+        "name": "Off the beaten track"
+        
+    },
+    {
+        "img": "../Assets/images/explore-lochs4.jpg",
+        "alt": "Islands to explore",
+        "name": "Islands to explore"
+ 
+    },
+    {
+        "img": "../Assets/images/explore-lochs5.jpg",
+        "alt": "Sunset views from the ridge",
+        "name": "Sunset views from the ridge"
+    }
+
+]

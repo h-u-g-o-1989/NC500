@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../Assets/images/explore-beaches1.jpg",
+        "alt": "Rosemarkie Beach",
+        "name": "Rosemarkie Beach"
+   
+    },
+    {
+        "img": "../Assets/images/explore-beaches3.jpg",
+        "alt": "Dornoch Beach",
+        "name": "Dornoch Beach"
+        
+    },
+    {
+        "img": "../Assets/images/explore-beaches4.jpg",
+        "alt": "Golspie Beach",
+        "name": "Golspie Beach"
+ 
+    },
+    {
+        "img": "../Assets/images/explore-beaches5.jpg",
+        "alt": "Melvich Beach",
+        "name": "Melvich Beach"
+    }
+
+]
