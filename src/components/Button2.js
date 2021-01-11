@@ -20,6 +20,6 @@ export const Button2 = styled.button`
     transform: translateY(-2px);
   }
   @media screen and (max-width: 1300px) {
-    font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+    font-size: clamp(0.5rem, 2.8vw, 1.8rem);
   }
 `
