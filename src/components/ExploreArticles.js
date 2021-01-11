@@ -19,7 +19,7 @@ const ExploreArticles = () => {
           <ContentInput id="the-wild-life">
             <h3>The Wild Life</h3>
             <NatureImage />
-            <CountyInfo>
+            <ExploreInfo>
               <ColumnTwo>
                 <p>
                   Home to over 90,000 species, Scotland has a rich and diverse
@@ -104,12 +104,12 @@ const ExploreArticles = () => {
               <ColumnThree>
                 <ExploreNature />
               </ColumnThree>
-            </CountyInfo>
+            </ExploreInfo>
           </ContentInput>
           <ContentInput id="waterfalls">
             <h3>The waterfalls</h3>
             <WaterfallImage />
-            <CountyInfo>
+            <ExploreInfo>
               <ColumnTwo>
                 <p>
                   Known for our changeable and unpredictable weather, there’s no
@@ -172,12 +172,12 @@ const ExploreArticles = () => {
               <ColumnThree>
                 <ExploreWaterfalls />
               </ColumnThree>
-            </CountyInfo>
+            </ExploreInfo>
           </ContentInput>
           <ContentInput id="beaches">
             <h3>The Beaches</h3>
             <BeachImage />
-            <CountyInfo>
+            <ExploreInfo>
               <ColumnTwo>
                 <p>
                   The NC500 is abundant with spectacular beaches which you can
@@ -236,12 +236,12 @@ const ExploreArticles = () => {
               <ColumnThree>
                 <ExploreBeaches />
               </ColumnThree>
-            </CountyInfo>
+            </ExploreInfo>
           </ContentInput>
           <ContentInput id="lochs">
             <h3>The Mountains & Lochs</h3>
             <LochImage />
-            <CountyInfo>
+            <ExploreInfo>
               <ColumnTwo>
                 <p>
                   No trip to the Highlands would be complete without climbing a
@@ -306,7 +306,7 @@ const ExploreArticles = () => {
               <ColumnThree>
                 <ExploreLochs />
               </ColumnThree>
-            </CountyInfo>
+            </ExploreInfo>
           </ContentInput>
         </ColumnOne>
         {/* </ColumnTwo> */}
@@ -374,10 +374,14 @@ const ContentInput = styled.div`
     color: #3b3b3b;
   }
 `
-const CountyInfo = styled.div`
+const ExploreInfo = styled.div`
   display: grid;
 
   grid-template-columns: 1fr 1fr;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
 `
 const ColumnTwo = styled.div`
   display: grid;

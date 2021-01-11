@@ -286,9 +286,11 @@ const CampingContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
 
-  @media screen and (max-width: 1540px) {
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr;
   }
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
   }
 `
 

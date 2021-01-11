@@ -12,7 +12,6 @@ import Facts8Img from "../Assets/images/facts-8.jpg"
 const FactsAndQuestions = () => {
   return (
     <FactsAndQuestionsContainer>
-      {/* <TopLine>ContentInputs</TopLine> */}
       <Description id="facts">F & Q's</Description>
       <ContentWrapper>
         <ColumnOne>
@@ -371,21 +370,32 @@ const ColumnOne = styled.div`
 
 const ContentInput = styled.div`
   padding-top: 2rem;
-
+  width: auto;
   height: max-content;
 
   h3 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    font-style: italic;
+    margin-bottom: 0.5rem;
     background: #f26a2e;
     color: white;
     width: max-content;
     padding: 1rem;
     border-radius: 14px;
+    font-size: clamp(1.2rem, 5vw, 3rem);
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 1300px) {
+      font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+    }
   }
   p {
     color: #3b3b3b;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 2rem;
   }
 `
 const CountyInfo = styled.div`
@@ -428,6 +438,9 @@ const Facts1 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
   ${"" /* border: 4px solid #f26a2e; */}
 `
 const Facts2 = styled.div`
@@ -447,6 +460,9 @@ const Facts2 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `
 const Facts3 = styled.div`
   background: linear-gradient(
@@ -465,6 +481,9 @@ const Facts3 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `
 const Facts4 = styled.div`
   background: linear-gradient(
@@ -483,6 +502,9 @@ const Facts4 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `
 const Facts5 = styled.div`
   background: linear-gradient(
@@ -501,6 +523,9 @@ const Facts5 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `
 const Facts6 = styled.div`
   background: linear-gradient(
@@ -519,6 +544,9 @@ const Facts6 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `
 const Facts7 = styled.div`
   background: linear-gradient(
@@ -537,6 +565,9 @@ const Facts7 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `
 const Facts8 = styled.div`
   background: linear-gradient(
@@ -555,4 +586,7 @@ const Facts8 = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 14px;
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 `

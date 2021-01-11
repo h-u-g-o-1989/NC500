@@ -14,7 +14,7 @@ const Hotels = () => {
       <ContentWrapper>
         <ColumnOne>
           <ContentInput id="Knockomie-inn">
-            <CountyInfo>
+            <HotelInfo>
               <ColumnTwo>
                 <KnockomieImage />
               </ColumnTwo>
@@ -43,11 +43,11 @@ const Hotels = () => {
                   rooms for a charge of £10.00 per dog per day.
                 </p>
               </ColumnThree>
-            </CountyInfo>
+            </HotelInfo>
           </ContentInput>
 
           <ContentInput id="ord-house">
-            <CountyInfo>
+            <HotelInfo>
               <ColumnTwo>
                 <OrdHouseImage />
               </ColumnTwo>
@@ -67,10 +67,10 @@ const Hotels = () => {
                   welcome. We look forward to seeing you at Ord House!
                 </p>
               </ColumnThree>
-            </CountyInfo>
+            </HotelInfo>
           </ContentInput>
           <ContentInput id="sutherland">
-            <CountyInfo>
+            <HotelInfo>
               <ColumnTwo>
                 <KessockHotelImage />
               </ColumnTwo>
@@ -94,10 +94,10 @@ const Hotels = () => {
                   also extensive gardens, terrace and patio areas .
                 </p>
               </ColumnThree>
-            </CountyInfo>
+            </HotelInfo>
           </ContentInput>
           <ContentInput id="clyneslish">
-            <CountyInfo>
+            <HotelInfo>
               <ColumnTwo>
                 <ClynelishImage />
               </ColumnTwo>
@@ -117,10 +117,10 @@ const Hotels = () => {
                   the Highlands memorable for all the right reasons.
                 </p>
               </ColumnThree>
-            </CountyInfo>
+            </HotelInfo>
           </ContentInput>
           <ContentInput id="gairloch-hotel">
-            <CountyInfo>
+            <HotelInfo>
               <ColumnTwo>
                 <GarliochImage />
               </ColumnTwo>
@@ -146,10 +146,10 @@ const Hotels = () => {
                   and the Western Isles.
                 </p>
               </ColumnThree>
-            </CountyInfo>
+            </HotelInfo>
           </ContentInput>
           <ContentInput id="cluny-bank">
-            <CountyInfo>
+            <HotelInfo>
               <ColumnTwo>
                 <ClunyImage />
               </ColumnTwo>
@@ -166,7 +166,7 @@ const Hotels = () => {
                   winning several prestigious awards along the way.
                 </p>
               </ColumnThree>
-            </CountyInfo>
+            </HotelInfo>
           </ContentInput>
         </ColumnOne>
       </ContentWrapper>
@@ -233,11 +233,18 @@ const ContentInput = styled.div`
     color: #3b3b3b;
   }
 `
-const CountyInfo = styled.div`
+const HotelInfo = styled.div`
   display: grid;
 
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
+
+  @media screen and (max-width: 999px) {
+    grid-template-columns: 1fr;
+  }
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 const ColumnTwo = styled.div`
   display: grid;
