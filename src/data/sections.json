@@ -7,13 +7,6 @@
         "to": "/routes"
     },
     {
-        "img": "../Assets/images/travel-4.jpg",
-        "alt": "The Roads",
-        "name": "The Roads",
-        "button": "View Roads",
-        "to": "/roads"
-    },
-    {
         "img": "../Assets/images/travel-3.jpg",
         "alt": "Where to Explore",
         "name": "Where to Explore",
@@ -40,5 +33,12 @@
         "name": "Activitites and Entertainment",
         "button": "View Activities",
         "to": "/activities"
+    },
+    {
+        "img": "../Assets/images/travel-4.jpg",
+        "alt": "The Roads",
+        "name": "F&Q's",
+        "button": "View F&Q's",
+        "to": "/facts"
     }
 ]

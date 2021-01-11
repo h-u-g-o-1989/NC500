@@ -56,7 +56,7 @@ export default function MapOne() {
             <Popup
               position={[data.location[0], data.location[1]]}
               onClose={() => {
-                console.log("Bye")
+                // console.log("Bye")
                 // setActivePark(null)
               }}
             >
