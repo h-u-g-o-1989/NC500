@@ -19,4 +19,7 @@ export const Button2 = styled.button`
     background: ${({ primary }) => (primary ? "#077BF1" : "#F26A2E")};
     transform: translateY(-2px);
   }
+  @media screen and (max-width: 1300px) {
+    font-size: clamp(0.5rem, 2.5vw, 1.5rem);
+  }
 `
